@@ -15,8 +15,6 @@ export default function BestSellers({}: Props) {
             <SellerCard />
             <SellerCard />
             <SellerCard />
-            <SellerCard />
-            <SellerCard />
         </div>
     </div>
   )

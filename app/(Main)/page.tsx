@@ -2,6 +2,7 @@
 import Header from '@/components/Header'
 import PromptCard from '@/components/Prompts/PromptCard'
 import About from '@/components/Route/About'
+import Future from '@/components/Route/Future'
 import Hero from '@/components/Route/Hero'
 import BestSellers from '@/components/Shop/BestSellers'
 import { Styles } from '@/utils/Styles'
@@ -37,6 +38,7 @@ export default function Page({}: Props) {
           </div>
           <br/>
           <BestSellers />
+          <Future/>
         </div>
       </div>
     </div>
