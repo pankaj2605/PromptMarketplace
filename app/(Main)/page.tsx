@@ -1,7 +1,9 @@
 'use client'
 import Header from '@/components/Header'
+import PromptCard from '@/components/Prompts/PromptCard'
 import About from '@/components/Route/About'
 import Hero from '@/components/Route/Hero'
+import { Styles } from '@/utils/Styles'
 import Image from 'next/image'
 import React from 'react'
 
@@ -19,6 +21,17 @@ export default function Page({}: Props) {
       <br/>
       <div className='w-[95%] md:w-[90%] xl:w-[8-%] 2xl:w-[75%] m-auto'>
         <About/>
+        <div >
+          <h1 className={`${Styles.heading} p-2 font-Monserrat`}>
+              Latest Prompts
+          </h1>
+          <div className="flex flex-wrap">
+            <PromptCard/>
+            <PromptCard/>
+            <PromptCard/>
+            <PromptCard/>
+          </div>
+        </div>
       </div>
     </div>
     
