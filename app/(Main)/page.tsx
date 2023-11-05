@@ -1,12 +1,15 @@
 'use client'
-import Header from '@/components/Header'
+import Header from '@/components/Layout/Header'
+import Footer from '@/components/Layout/Footer'
 import PromptCard from '@/components/Prompts/PromptCard'
 import About from '@/components/Route/About'
 import Future from '@/components/Route/Future'
 import Hero from '@/components/Route/Hero'
 import Partners from '@/components/Route/Partners'
 import BestSellers from '@/components/Shop/BestSellers'
+import SellerBanner from '@/components/Shop/SellerBanner'
 import { Styles } from '@/utils/Styles'
+import { Divider } from '@nextui-org/react'
 import Image from 'next/image'
 import React from 'react'
 
@@ -41,6 +44,11 @@ export default function Page({}: Props) {
           <BestSellers />
           <Future/>
           <Partners />
+          <SellerBanner/>
+          <br/>
+          <br/>
+          <Divider className='bg-[#ffffff23]'/>
+          <Footer/>
         </div>
       </div>
     </div>
