@@ -4,6 +4,7 @@ import PromptCard from '@/components/Prompts/PromptCard'
 import About from '@/components/Route/About'
 import Future from '@/components/Route/Future'
 import Hero from '@/components/Route/Hero'
+import Partners from '@/components/Route/Partners'
 import BestSellers from '@/components/Shop/BestSellers'
 import { Styles } from '@/utils/Styles'
 import Image from 'next/image'
@@ -39,6 +40,7 @@ export default function Page({}: Props) {
           <br/>
           <BestSellers />
           <Future/>
+          <Partners />
         </div>
       </div>
     </div>
