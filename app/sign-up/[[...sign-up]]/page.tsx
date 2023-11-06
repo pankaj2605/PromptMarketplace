@@ -5,6 +5,6 @@ type Props = {}
 
 export default function page({}: Props) {
   return (
-    <div><SignUp /></div>
+    <div className='w-full h-screen flex items-center justify-center'><SignUp /></div>
   )
 }
